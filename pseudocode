@@ -1,0 +1,12 @@
+store x = 0
+store maxPenumpang = 4
+store maxKecepatan = 20
+
+    if x > 2 & x < maxPenumpang
+        maxKecepatan - 5
+
+    else if x = maxPenumpang
+        maxKecepatan - 7
+
+    else
+        maxKecepatan - 2
